@@ -139,7 +139,7 @@ function TicketForm() {
             setStandardTotalPrice={setStandardTotalPrice}
             setConcessionTotalPrice={setConcessionTotalPrice}
             setTotalPrice={setTotalPrice}
-          ></TotalButton>
+          >Calculate Current Total</TotalButton>
           <br />
           <div>
             This is the current total for your visit today: {totalPrice}

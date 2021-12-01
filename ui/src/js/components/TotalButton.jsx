@@ -68,7 +68,7 @@ function TotalButton(props) {
   return (
     <div>
       <Button variant="primary" size="lg" onClick={handleCalculatePrice}>
-        Calculate Total Price
+        Calculate Current Total
       </Button>
     </div>
   );
