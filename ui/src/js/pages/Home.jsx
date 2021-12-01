@@ -1,5 +1,5 @@
-import { React } from 'react';
-import TicketForm from '../components/TicketForm';
+import { React } from "react";
+import TicketForm from "../components/TicketForm";
 
 function Home() {
   return (
@@ -10,8 +10,7 @@ function Home() {
         your exclusive Thursday offer!
       </p>
       <br />
-      <TicketForm/>
-
+      <TicketForm />
     </div>
   );
 }
