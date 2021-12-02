@@ -19,25 +19,25 @@ function TicketForm() {
 
   const increaseStandardTicketCount = () => {
     setStandardTicketCount(
-      (prevstandardTicketCount) => prevstandardTicketCount + 1
+      prevStandardTicketCount => prevStandardTicketCount + 1
     );
   };
 
   const decreaseStandardTicketCount = () => {
     setStandardTicketCount(
-      (prevstandardTicketCount) => prevstandardTicketCount - 1
+      prevStandardTicketCount => prevStandardTicketCount - 1
     );
   };
 
   const increaseConcessionTicketCount = () => {
     setConcessionTicketCount(
-      (prevconcessionTicketCount) => prevconcessionTicketCount + 1
+      prevConcessionTicketCount => prevConcessionTicketCount + 1
     );
   };
 
   const decreaseConcessionTicketCount = () => {
     setConcessionTicketCount(
-      (prevconcessionTicketCount) => prevconcessionTicketCount - 1
+      prevconcessionTicketCount => prevconcessionTicketCount - 1
     );
   };
 
@@ -67,8 +67,7 @@ function TicketForm() {
 
   const increaseConcessionIMAXTicketCount = () => {
     setConcessionIMAXCount(
-      (prevconcessionIMAXCount) => prevconcessionIMAXCount + 1
-    );
+      (prevconcessionIMAXCount) => prevconcessionIMAXCount + 1);
   };
 
   const decreaseConcessionIMAXTicketCount = () => {
@@ -144,7 +143,7 @@ function TicketForm() {
           </TotalButton>
           <br />
           <div>
-            This is the current total for your visit today: {totalPrice}
+            This is the current total for your visit today before any offers applied:  £{totalPrice}
           </div>
         </div>
         <br />
