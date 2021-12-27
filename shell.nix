@@ -7,5 +7,7 @@ nixpkgs.mkShell {
         nodejs-16_x
         yarn
         niv
+        docker
+        docker-compose
     ];
 }
