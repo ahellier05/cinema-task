@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: cinema-pod
+spec:
+   containers:
+   - name: cinemarepo
+     image: ahellier05/cinemarepo:latest
+     ports:
+     - containerPort: 3000
