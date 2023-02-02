@@ -1,0 +1,14 @@
+---
+
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: cinema-task
+  labels:
+    app: cinemat
+spec:
+  containers:
+    - name: cinema-task
+      image: ahellier05/cinemarepo:latest
+      ports:
+        - containerPort: 3000
